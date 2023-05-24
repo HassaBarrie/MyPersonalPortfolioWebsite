@@ -1,11 +1,26 @@
 import React from 'react'
-import './app.css'
+import Header from './components/header/Header'
+
+import About from './components/about/About'
 
 
-const App = () =>{
-    return(
-        <div>App</div>
-    )
+import Contact from './components/contact/Contact'
+
+
+const App = () => {
+  return (
+    <>
+        <Header />
+      
+        <About />
+       
+       
+       
+       
+        <Contact />
+       
+    </>
+  )
 }
 
 export default App
